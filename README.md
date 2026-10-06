@@ -18,5 +18,3 @@
 ## 使用说明
 
 这些示例面向 i.MX6ULL Linux 4.1.15 开发环境。每个练习目录保留源码和原始 Makefile；编译前请根据本机环境修改 `KERNELDIR`、交叉编译器和目标内核配置。
-
-编译产物（`.o`、`.ko`、`.mod.c`、`Module.symvers`、`modules.order` 等）不提交到仓库，使用根目录 `.gitignore` 自动排除。
