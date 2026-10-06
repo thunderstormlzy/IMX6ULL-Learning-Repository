@@ -1,0 +1,39 @@
+# Linux kernel and user-space build output
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+
+# Locally built applications
+/07-camera-project/src/camera
+**/test
+**/ledtest
+**/delayled
+**/beeptest
+**/keytest
+**/timertest
+**/irqtest
+**/blockiotest
+**/noblocktest
+**/asyncnotitest
+**/inputtest
+**/ap3216ctest
+**/icm20608test
+**/icm20608ftest
+
+# Runtime data
+*.bmp
+*.raw
+notes/inbox/*
+!notes/inbox/
+!notes/inbox/README.md
+
+# Editor and OS files
+.vscode/
+*.code-workspace
+Thumbs.db
+Desktop.ini
